@@ -5,10 +5,10 @@ class Map:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-        self.room = []
+        self.map = []
         self.roomInfo(self)
 
-    def room(self):
+    def createRoom(self):
         empty = 0
         treasure = 1
         monster = 2
@@ -19,8 +19,8 @@ class Map:
                 row.append(random.choice([empty, treasure, monster]))
             self.room.append(row)
     
-    def createRoom(self):
-        for row in self.room:
+    def createMap(self):
+        for row in self.map:
             print(row)
 
         
