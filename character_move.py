@@ -1,4 +1,4 @@
-class CharacterMoove:
+class CharacterMove:
     def __init__(self, startX, startY, gameMap, character):
         self.startX = startX
         self.startY = startY

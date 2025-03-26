@@ -1,4 +1,4 @@
-from character import Character
+from character.character import Character
 
 def main():
 

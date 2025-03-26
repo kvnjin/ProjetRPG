@@ -7,6 +7,7 @@ class Map:
         self.y = y
         self.map = []
         self.roomInfo(self)
+        
 
     def createRoom(self):
         empty = 0
